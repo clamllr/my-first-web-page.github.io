@@ -1,12 +1,202 @@
+  
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My first web page</title>
+  <title>Voyage</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="text-center">
 
-  <h1>My first web page</h1>
+  <div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+  <div class="my-navbar">
+    <img src="images/logo.png" class="logo">
+    <div class="links">
+      <a href="" class="link">Présentation</a>
+      <a href="" class="link">Team</a>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+        Contact
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+              <div class="modal-body">
+              <h3 class="color-green m-4">Clara Mollier</h3>
+              <a href="clara.mollier@efap.com" target="_blanck"><i class="fas fa-envelope"></i> : clara.mollier@efap.com</a>
+              <br>
+                <a class="socials" href="https://www.linkedin.com/in/clara-mollier-82184a173/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="cadre">
+    <h1 class="color">EVASION</h1>
+    <h2 class="color-green">Le meilleur du voyage</h2>
+    <img src="images/muffin.jpg" alt="muffin" class="avatar">
+    <br>
+    <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" target="_blanck" class="btn-pink">En savoir plus</a>
+  </div>
+
+  <div class="cadre">
+    <h3 class="color-green">Présentation</h3>
+   <p><strong>Bienvenue chez Evasion!</strong> Nous sommes un site internet qui est là pour vous divertir de votre quotidien en vous donnant des idées de destinations pour <b>voyager</b>. Le voyage est pour nous essentiel à l'Homme, car il est important de s'ouvrir au monde qui nous entoure et de découvrire de nouveaux paysages qui nous sortent de notre quotidien.<br> Le voyage permet également de se créer des souvenirs inoubliables que ce soit en famille, entre amis ou même seul<br>C'est également très bien pour apprendre de nouvelles langues comme par exemple l'anglais.
+   <br> <i>"Il n'y a pas de meilleure manière d'apprendre une langue étrangère qu'en étant en totale immersion dans le pays."</i>.</p>
+  </div>
+
+  <div class="cadre">
+    <h3 class="color-green">Le pays du moment</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YJqZNxTo2_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="horizontal-position">
+
+    <div class="cadre-ingredients text-left">
+    <h4  class="color-green">Nos destinations du moment</h4>
+<ul>
+    <li>Istanbul, Turquie</li>
+    <li>Cambodge</li>
+	<li>Afrique du Sud</li>
+	<li>Norvège</li>
+	<li>Estonie</li>
+	<li>New York, Etats-Unis</li>
+	<li>Islande</li>
+	<li> Pérou</li>
+	<li>Guatemala</li>
+	<li>Colombie</li>
+</ul>
+</div>
+
+
+    <div class="cadre-preparartion text-left">
+      <h4 class="color-green">Nos citations préférés</h4>
+<ol>
+	<li>« Parler une langue c’est adopter un monde, une culture. » Frantz Fanon</li>
+	<li>« Rien ne développe l’intelligence comme les voyages. » Émile Zola</li>
+	<li>« Il faut voyager pour apprendre. » Mark Twain</li>
+	<li>« Voir le monde de ses yeux est mille fois mieux que n’importe quel rêve. » Ray Bradbury</li>
+</ol>
+</div>
+
+  </div>
+        <!-- Begin Mailchimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="https://a-waree.us15.list-manage.com/subscribe/post?u=9ef09dfae3eb2da317e4e3b49&amp;id=acb7df8fb7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <h2 class="color-green">Souscrire à notre newsletter</h2>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email<span class="asterisk">*</span></label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-FNAME">Nom de famille</label>
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-LNAME">Prénom</label>
+            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9ef09dfae3eb2da317e4e3b49_acb7df8fb7" tabindex="-1" value=""></div>
+            <div class="clear">
+              <input type="submit" value="Souscrire" name="subscribe" id="mc-embedded-subscribe" class="btn-pink">
+            </div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+
+  <div class="cadre">
+    <h3 class="color-green">Où nous trouver?</h3>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11591.562262349367!2d-1.619359222512278!3d43.42111311607627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5113910aa9a9e5%3A0x40665174813a0a0!2s64210%20Gu%C3%A9thary!5e0!3m2!1sfr!2sfr!4v1592485866941!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+
+
+
+  <div class="cadre">
+
+    <h3 class="color-green m-4">Vos voyages</h3>
+    <div class="d-flex justify-content-between">
+      <div class="card" style="width: 18rem;">
+        <img src="images/production1.jpg" class="card-img-top" alt="images/muffin1.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Maldives</h5>
+          <p class="card-text">Les Maldives sont un pays tropical de l'océan Indien.<br>Découvrez nos bon plans!</p>
+          <a href="#" class="btn btn-success">Plus d'infos ici</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/production2.jpg" class="card-img-top" alt="images/muffin2.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Bali</h5>
+          <p class="card-text">Bali est une île indonésienne célèbre pour ses montagnes volcaniques boisées, ses rizières, ses plages et ses récifs coralliens.<br>Découvrez nos bon plans!</p>
+          <a href="#" class="btn btn-success">Plus d'infos ici</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/production3.jpg" class="card-img-top" alt="images/muffin3.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Istanbul</h5>
+          <p class="card-text">Istanbul est une grande ville turque à cheval entre l'Europe et l'Asie, séparée par le détroit du Bosphore.<br>Découvrez nos bon plans!</p>
+          <a href="#" class="btn btn-success">Plus d'infos ici</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/18ee24e4d3.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
